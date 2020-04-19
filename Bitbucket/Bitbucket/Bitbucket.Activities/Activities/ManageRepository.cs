@@ -139,6 +139,8 @@ namespace Bitbucket.Activities
                 return (ctx) =>
                 {
                     JsonResult.Set(ctx, exceptionMessageJson);
+                    throw new Exception(ex.Message + " - " + exceptionMessageJson);
+
                 };
             }
 
