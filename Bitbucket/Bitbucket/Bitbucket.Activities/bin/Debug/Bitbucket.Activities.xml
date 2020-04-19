@@ -1,0 +1,593 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bitbucket.Activities</name>
+    </assembly>
+    <members>
+        <member name="P:Bitbucket.Activities.BitbucketAPIScope.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.CommitFile.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.GetRepositories.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.GetWorkspaces.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.ManageRepository.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="T:Bitbucket.Activities.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.Authentication_Category">
+            <summary>
+              Looks up a localized string similar to Authentication.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.BitbucketAPIScope_AccountUsername_Description">
+            <summary>
+              Looks up a localized string similar to The Username you use for your Bitbucket account..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.BitbucketAPIScope_AccountUsername_DisplayName">
+            <summary>
+              Looks up a localized string similar to Account Username.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.BitbucketAPIScope_AppPassword_Description">
+            <summary>
+              Looks up a localized string similar to The App Password you have configured in your Bitbucket account..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.BitbucketAPIScope_AppPassword_DisplayName">
+            <summary>
+              Looks up a localized string similar to App Password.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.BitbucketAPIScope_Description">
+            <summary>
+              Looks up a localized string similar to Authorises all Bitbucket activites within the scope..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.BitbucketAPIScope_DisplayName">
+            <summary>
+              Looks up a localized string similar to Bitbucket API Scope.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.CommitFile_BranchName_Description">
+            <summary>
+              Looks up a localized string similar to The name of the branch that the new commit should be created on. When omitted, the commit will be created on top of the main branch and will become the main branch&apos;s new head..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.CommitFile_BranchName_DisplayName">
+            <summary>
+              Looks up a localized string similar to Branch Name (Optional).
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.CommitFile_CommitMessage_Description">
+            <summary>
+              Looks up a localized string similar to The commit message for this file commit..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.CommitFile_CommitMessage_DisplayName">
+            <summary>
+              Looks up a localized string similar to Commit Message.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.CommitFile_Description">
+            <summary>
+              Looks up a localized string similar to Commit a file to the specified repository location with a commit message..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.CommitFile_DisplayName">
+            <summary>
+              Looks up a localized string similar to Commit File.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.CommitFile_FileToUpload_Description">
+            <summary>
+              Looks up a localized string similar to The file to be comitted to the repository..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.CommitFile_FileToUpload_DisplayName">
+            <summary>
+              Looks up a localized string similar to File To Upload.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.CommitFile_JsonResult_Description">
+            <summary>
+              Looks up a localized string similar to The result (if any) returned from the action performed in JSON format..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.CommitFile_JsonResult_DisplayName">
+            <summary>
+              Looks up a localized string similar to JSON Result.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.CommitFile_RepositoryLocation_Description">
+            <summary>
+              Looks up a localized string similar to A filepath representing the destination in the repository, including desired file name. Example: /myFolder/myFile.txt.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.CommitFile_RepositoryLocation_DisplayName">
+            <summary>
+              Looks up a localized string similar to Repository Location.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.CommitFile_RepositoryUUIDOrSlug_Description">
+             <summary>
+               Looks up a localized string similar to The Universally Unique Identifier (UUID) of the repository or slug.
+            Examples:
+            UUID: 11111111-1111-1111-1111-111111111111
+            Slug: test-repo.
+             </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.CommitFile_RepositoryUUIDOrSlug_DisplayName">
+            <summary>
+              Looks up a localized string similar to Repository UUID or Slug.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.CommitFile_WorkspaceUUIDOrSlug_Description">
+             <summary>
+               Looks up a localized string similar to The Universally Unique Identifier (UUID) of the workspace or slug.
+            Examples:
+            UUID: 11111111-1111-1111-1111-111111111111
+            Slug: myWorkspace.
+             </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.CommitFile_WorkspaceUUIDOrSlug_DisplayName">
+            <summary>
+              Looks up a localized string similar to Workspace UUID or Slug.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.Common_Category">
+            <summary>
+              Looks up a localized string similar to Common.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ContinueOnError_Description">
+            <summary>
+              Looks up a localized string similar to If set, continue executing the remaining activities even if the current activity has failed..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ContinueOnError_DisplayName">
+            <summary>
+              Looks up a localized string similar to ContinueOnError.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.Do">
+            <summary>
+              Looks up a localized string similar to Do.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.GetRepositories_Description">
+            <summary>
+              Looks up a localized string similar to Get all repositories from the configured Bitbucket account in the scope activity..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.GetRepositories_DisplayName">
+            <summary>
+              Looks up a localized string similar to Get Repositories.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.GetRepositories_RepositoriesJObject_Description">
+            <summary>
+              Looks up a localized string similar to A paginated JObject output of repositories..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.GetRepositories_RepositoriesJObject_DisplayName">
+            <summary>
+              Looks up a localized string similar to Repositories (JObject).
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.GetRepositories_RepositoriesSlugList_Description">
+            <summary>
+              Looks up a localized string similar to A list of repository slugs..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.GetRepositories_RepositoriesSlugList_DisplayName">
+            <summary>
+              Looks up a localized string similar to Repository Slugs (List&lt;string&gt;).
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.GetRepositories_RepositoriesUUIDList_Description">
+            <summary>
+              Looks up a localized string similar to A list of repository Universally Unique Identifiers (UUIDs)..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.GetRepositories_RepositoriesUUIDList_DisplayName">
+            <summary>
+              Looks up a localized string similar to Repository UUIDs (List&lt;string&gt;).
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.GetRepositories_WorkspaceUUIDOrSlug_Description">
+             <summary>
+               Looks up a localized string similar to The Universally Unique Identifier (UUID) of the workspace or slug
+            Examples:
+            UUID: 11111111-1111-1111-1111-111111111111
+            Slug: myWorkspace.
+             </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.GetRepositories_WorkspaceUUIDOrSlug_DisplayName">
+            <summary>
+              Looks up a localized string similar to Workspace UUID or Slug.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.GetWorkspaces_Description">
+            <summary>
+              Looks up a localized string similar to Gets all workspaces from the configured Bitbucket account in the scope..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.GetWorkspaces_DisplayName">
+            <summary>
+              Looks up a localized string similar to Get Workspaces.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.GetWorkspaces_WorkspacesJObject_Description">
+            <summary>
+              Looks up a localized string similar to A paginated JObject output of workspaces..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.GetWorkspaces_WorkspacesJObject_DisplayName">
+            <summary>
+              Looks up a localized string similar to Workspaces (JObject).
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.GetWorkspaces_WorkspacesSlugList_Description">
+            <summary>
+              Looks up a localized string similar to A list workspace slugs..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.GetWorkspaces_WorkspacesSlugList_DisplayName">
+            <summary>
+              Looks up a localized string similar to Workspace Slugs (List&lt;string&gt;).
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.GetWorkspaces_WorkspacesUUIDList_Description">
+            <summary>
+              Looks up a localized string similar to A list of workspace Universally Unique Identifiers (UUIDs)..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.GetWorkspaces_WorkspacesUUIDList_DisplayName">
+            <summary>
+              Looks up a localized string similar to Workspace UUIDs (List&lt;string&gt;).
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.Input_Category">
+            <summary>
+              Looks up a localized string similar to Input.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ManageRepository_Action_Description">
+             <summary>
+               Looks up a localized string similar to The action to be performed. Read repository (GET), Create Repository (PUT), Delete Repository (DELETE).
+            When creating a repository, use a slug and not a UUID..
+             </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ManageRepository_Action_DisplayName">
+            <summary>
+              Looks up a localized string similar to Action.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ManageRepository_Action_Hint">
+            <summary>
+              Looks up a localized string similar to Select the action to be performed..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ManageRepository_Description">
+            <summary>
+              Looks up a localized string similar to Perform actions on a repository like create, delete, and read..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ManageRepository_DisplayName">
+            <summary>
+              Looks up a localized string similar to Manage Repository.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ManageRepository_JsonResult_Description">
+            <summary>
+              Looks up a localized string similar to The result returned from the action performed in JSON format..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ManageRepository_JsonResult_DisplayName">
+            <summary>
+              Looks up a localized string similar to JSON Result.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ManageRepository_RepositoryUUIDOrSlug_Description">
+             <summary>
+               Looks up a localized string similar to The Universally Unique Identifier (UUID) of the repository or slug.
+            Examples:
+            UUID: 11111111-1111-1111-1111-111111111111
+            Slug: test-repo.
+             </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ManageRepository_RepositoryUUIDOrSlug_DisplayName">
+            <summary>
+              Looks up a localized string similar to Repository UUID or Slug.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ManageRepository_WorkspaceUUIDOrSlug_Description">
+             <summary>
+               Looks up a localized string similar to The Universally Unique Identifier (UUID) of the workspace or slug.
+            Examples:
+            UUID: 11111111-1111-1111-1111-111111111111
+            Slug: myWorkspace.
+             </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ManageRepository_WorkspaceUUIDOrSlug_DisplayName">
+            <summary>
+              Looks up a localized string similar to Workspace UUID or Slug.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.Options_Category">
+            <summary>
+              Looks up a localized string similar to Options.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.Output_Category">
+            <summary>
+              Looks up a localized string similar to Output.
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.Timeout_Description">
+            <summary>
+              Looks up a localized string similar to Specifies the amount of time (in milliseconds) to wait for the activity to run before an error is thrown. The default value is 60000 (1 minute)..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.Timeout_DisplayName">
+            <summary>
+              Looks up a localized string similar to Timeout (milliseconds).
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.Timeout_Error">
+            <summary>
+              Looks up a localized string similar to The activity timed out and was canceled..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ValidationExclusiveProperties_Error">
+            <summary>
+              Looks up a localized string similar to Please provide a value either for {0} or {1}, but not both..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ValidationOverloadGroup_Error">
+            <summary>
+              Looks up a localized string similar to Please provide values for both {0} and {1}..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ValidationScope_Error">
+            <summary>
+              Looks up a localized string similar to Cannot be used outside of a {0}..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ValidationValue_Error">
+            <summary>
+              Looks up a localized string similar to Please provide a value for {0}..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ValidationValue_Error_CommitFile_BranchName">
+            <summary>
+              Looks up a localized string similar to The branch name must not be a zero-length string. Leave the field blank or enter a valid name..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ValidationValue_Error_ManageRepository_RepositoryUUIDOrSlug">
+            <summary>
+              Looks up a localized string similar to The repository UUID or Slug must not be a zero-length string. Enter a valid value..
+            </summary>
+        </member>
+        <member name="P:Bitbucket.Activities.Properties.Resources.ValidationValue_Error_ManageRepository_RepositoryUUIDOrSlug_NotUUID">
+            <summary>
+              Looks up a localized string similar to When creating a repository, the &quot;Repository UUID or Slug&quot; value must be a slug and cannot be a UUID..
+            </summary>
+        </member>
+        <member name="T:UiPath.Shared.Activities.Contracts.IBaseChildActivity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Contracts.IBaseChildActivity.GetFromContext``1(System.Activities.ActivityContext,System.String)">
+            <summary>
+            Gets the services container. This stores the authenticated clients
+            </summary>
+            <param name="context">The context.</param>
+            <param name="propertyName"></param>
+            
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Contracts.IBaseChildActivity.GetFromUserState``1(System.Activities.AsyncCodeActivityContext)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Contracts.IBaseChildActivity.SetToUserState``1(System.Activities.AsyncCodeActivityContext,``0)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="context"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Contracts.BaseChildActivity.GetFromUserState``1(System.Activities.AsyncCodeActivityContext)">
+            <summary>
+            Get object from context.UserState object. 
+            According to documentation, this is the place to store object for multithreaded access
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Contracts.BaseChildActivity.SetToUserState``1(System.Activities.AsyncCodeActivityContext,``0)">
+            <summary>
+            Set context.UserState to desired value
+            </summary>
+            <typeparam name="U"></typeparam>
+            <param name="context"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Contracts.BaseChildActivity.GetFromContext``1(System.Activities.ActivityContext,System.String)">
+            <summary>
+            Get object from Context properties
+            </summary>
+            <param name="context"></param>
+            <param name="propertyName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:UiPath.Shared.Activities.IObjectContainer">
+            <summary>
+            A simple container for objects meant to be shared accross the application space.
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.IObjectContainer.Add``1(``0)">
+            <summary>
+            Stores a reference to an object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="objectToAdd"></param>
+        </member>
+        <member name="M:UiPath.Shared.Activities.IObjectContainer.Get``1">
+            <summary>
+            Gets the object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.IObjectContainer.Where(System.Func{System.Object,System.Boolean})">
+            <summary>
+            
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.IObjectContainer.Remove``1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:UiPath.Shared.Activities.IObjectContainer.Contains``1">
+            <summary>
+            Determines whether this instance contains the object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns>
+              <c>true</c> if this instance contains object; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.IObjectContainer.Clear">
+            <summary>
+            Clears this instance.
+            </summary>
+        </member>
+        <member name="T:UiPath.Shared.Activities.Utilities.ChildActivityExtensions">
+            <summary>Provides the standard functionality across activities.</summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Utilities.ChildActivityExtensions.GetFromUserState``1(System.Activities.AsyncCodeActivityContext)">
+            <summary>
+            Get object from context.UserState object. 
+            According to documentation, this is the place to store object for multithreaded access
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Utilities.ChildActivityExtensions.SetToUserState``1(System.Activities.AsyncCodeActivityContext,``0)">
+            <summary>
+            Set context.UserState to desired value
+            </summary>
+            <typeparam name="U"></typeparam>
+            <param name="context"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Utilities.ChildActivityExtensions.GetFromContext``1(System.Activities.ActivityContext,System.String)">
+            <summary>
+            Get object from Context properties
+            </summary>
+            <param name="context"></param>
+            <param name="propertyName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:UiPath.Shared.Activities.ObjectContainer">
+            <summary>
+            A simple container for objects meant to be shared accross the application space.
+            </summary>
+        </member>
+        <member name="F:UiPath.Shared.Activities.ObjectContainer._objectHolder">
+            <summary>
+            Gets the object holder.
+            </summary>
+            <value>
+            The object holder.
+            </value>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:UiPath.Shared.Activities.ObjectContainer"/> class.
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.Add``1(``0)">
+            <summary>
+            Stores a reference to a object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="object"></param>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.Get``1">
+            <summary>
+            Gets the object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.Where(System.Func{System.Object,System.Boolean})">
+            <summary>
+            
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.Remove``1">
+            <summary>
+            Remove a object from the container
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.Contains``1">
+            <summary>
+            Determines whether this instance contains the object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns>
+              <c>true</c> if this instance contains object; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.Clear">
+            <summary>
+            Clears this instance.
+            </summary>
+        </member>
+    </members>
+</doc>

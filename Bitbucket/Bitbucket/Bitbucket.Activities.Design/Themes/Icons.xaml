@@ -1,0 +1,107 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--Bitbucket Scope Icon-->
+    <DrawingGroup x:Key="BitbucketScopeDrawingGroup">
+        <DrawingGroup.ClipGeometry>
+            <RectangleGeometry Rect="0,0,62.42,62.42" />
+        </DrawingGroup.ClipGeometry>
+        <DrawingGroup.Transform>
+            <TranslateTransform X="0.025808360427618027" Y="0" />
+        </DrawingGroup.Transform>
+        <DrawingGroup x:Name="Layer_2">
+            <DrawingGroup x:Name="Blue" Transform="1,0,0,1,0,-3.13">
+                <GeometryDrawing Brush="#FF2684FF">
+                    <GeometryDrawing.Geometry>
+                        <PathGeometry FillRule="Nonzero" Figures="M2,6.26A2,2,0,0,0,0,8.58L8.49,60.12A2.72,2.72,0,0,0,11.15,62.39L51.88,62.39A2,2,0,0,0,53.88,60.71L62.37,8.59A2,2,0,0,0,60.37,6.27z M37.75,43.51L24.75,43.51 21.23,25.12 40.9,25.12z" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Brush>
+                        <LinearGradientBrush StartPoint="64.01,30.27" EndPoint="32.99,54.48" MappingMode="Absolute" SpreadMethod="Pad" Opacity="1">
+                            <GradientStop Color="#FF0052CC" Offset="0.18" />
+                            <GradientStop Color="#FF2684FF" Offset="1" />
+                        </LinearGradientBrush>
+                    </GeometryDrawing.Brush>
+                    <GeometryDrawing.Geometry>
+                        <PathGeometry FillRule="Nonzero" Figures="M59.67,25.12L40.9,25.12 37.75,43.51 24.75,43.51 9.4,61.73A2.71,2.71,0,0,0,11.15,62.39L51.89,62.39A2,2,0,0,0,53.89,60.71z" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingGroup>
+    </DrawingGroup>
+    <DrawingBrush x:Key="BitbucketAPIScopeIcon" Drawing="{StaticResource BitbucketScopeDrawingGroup}" />
+
+    <!--Bitbucket Child Activity Icon - Get Repositories-->
+    <DrawingGroup x:Key="GetRepositoriesDrawingGroup">
+        <DrawingGroup.ClipGeometry>
+            <RectangleGeometry Rect="0,0,24,24" />
+        </DrawingGroup.ClipGeometry>
+        <GeometryDrawing Brush="#FF000000">
+            <GeometryDrawing.Geometry>
+                <PathGeometry FillRule="Nonzero" Figures="M8,0L20,0A2,2,0,0,1,22,2L22,18A2,2,0,0,1,20,20L8,20A2,2,0,0,1,6,18L6,2A2,2,0,0,1,8,0 M14.75,11.5C17.5,11.5 18.24,9.47 18.43,8.4 19.34,8.11 20,7.26 20,6.25 20,5 19,4 17.75,4 16.5,4 15.5,5 15.5,6.25 15.5,7.19 16.07,8 16.89,8.33 16.67,9 16,10 14,10 12.62,10 11.66,10.35 11,10.84L11,6.87C11.87,6.56 12.5,5.73 12.5,4.75 12.5,3.5 11.5,2.5 10.25,2.5 9,2.5 8,3.5 8,4.75 8,5.73 8.63,6.56 9.5,6.87L9.5,13.13C8.63,13.44 8,14.27 8,15.25 8,16.5 9,17.5 10.25,17.5 11.5,17.5 12.5,16.5 12.5,15.25 12.5,14.32 11.94,13.5 11.13,13.18 11.41,12.5 12.23,11.5 14.75,11.5 M10.25,14.5A0.75,0.75,0,0,1,11,15.25A0.75,0.75,0,0,1,10.25,16A0.75,0.75,0,0,1,9.5,15.25A0.75,0.75,0,0,1,10.25,14.5 M10.25,4A0.75,0.75,0,0,1,11,4.75A0.75,0.75,0,0,1,10.25,5.5A0.75,0.75,0,0,1,9.5,4.75A0.75,0.75,0,0,1,10.25,4 M17.75,5.5A0.75,0.75,0,0,1,18.5,6.25A0.75,0.75,0,0,1,17.75,7A0.75,0.75,0,0,1,17,6.25A0.75,0.75,0,0,1,17.75,5.5 M16,22L16,24 4,24A2,2,0,0,1,2,22L2,6 4,6 4,22 16,22z" />
+            </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingBrush x:Key="GetRepositoriesIcon" Drawing="{StaticResource GetRepositoriesDrawingGroup}" />
+
+    <!--Bitbucket Child Activity Icon - Manage Repository-->
+    <DrawingGroup x:Key="ManageRepositoryDrawingGroup">
+        <DrawingGroup.ClipGeometry>
+            <RectangleGeometry Rect="0,0,129,129" />
+        </DrawingGroup.ClipGeometry>
+        <DrawingGroup>
+            <DrawingGroup>
+                <GeometryDrawing Brush="#FF000000">
+                    <GeometryDrawing.Geometry>
+                        <PathGeometry FillRule="Nonzero" Figures="M119.2,114.3L9.8,114.3C7.5,114.3 5.7,116.2 5.7,118.4 5.7,120.6 7.6,122.5 9.8,122.5L119.3,122.5C121.6,122.5 123.4,120.6 123.4,118.4 123.4,116.2 121.5,114.3 119.2,114.3z" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing Brush="#FF000000">
+                    <GeometryDrawing.Geometry>
+                        <PathGeometry FillRule="Nonzero" Figures="M5.7,78L5.6,97.5C5.6,98.6 6,99.7 6.8,100.5 7.6,101.3 8.6,101.7 9.7,101.7L29.1,101.6C30.2,101.6,31.2,101.2,32,100.4L99,33.4C100.6,31.8,100.6,29.2,99,27.5L79.8,8.10000000000001C78.2,6.50000000000001,75.6,6.50000000000001,73.9,8.10000000000001L60.5,21.6 6.89999999999999,75.1C6.19999999999999,75.9,5.69999999999999,76.9,5.69999999999999,78z M76.9,16.9L90.4,30.4 82.8,38 69.3,24.5 76.9,16.9z M14,79.8L63.4,30.4 76.9,43.9 27.5,93.2 13.9,93.3 14,79.8z" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingGroup>
+    </DrawingGroup>
+    <DrawingBrush x:Key="ManageRepositoryIcon" Drawing="{StaticResource ManageRepositoryDrawingGroup}" />
+
+    <!--Bitbucket Child Activity Icon - Commit File-->
+    <DrawingGroup x:Key="CommitFileDrawingGroup">
+        <DrawingGroup.ClipGeometry>
+                <RectangleGeometry Rect="0,0,471.2,471.2" />
+            </DrawingGroup.ClipGeometry>
+            <DrawingGroup>
+                <DrawingGroup>
+                    <GeometryDrawing Brush="#FF000000">
+                        <GeometryDrawing.Geometry>
+                            <PathGeometry FillRule="Nonzero" Figures="M457.7,230.15C450.2,230.15,444.2,236.15,444.2,243.65L444.2,366.45C444.2,399.85,417,426.95,383.7,426.95L87.5,426.95C54.1,426.95,27,399.75,27,366.45L27,241.65C27,234.15 21,228.15 13.5,228.15 6,228.15 0,234.15 0,241.65L0,366.45C0,414.75,39.3,453.95,87.5,453.95L383.7,453.95C432,453.95,471.2,414.65,471.2,366.45L471.2,243.65C471.2,236.25,465.2,230.15,457.7,230.15z" />
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing Brush="#FF000000">
+                        <GeometryDrawing.Geometry>
+                            <PathGeometry FillRule="Nonzero" Figures="M159.3,126.15L222.1,63.35 222.1,337.25C222.1,344.75 228.1,350.75 235.6,350.75 243.1,350.75 249.1,344.75 249.1,337.25L249.1,63.35 311.9,126.15C314.5,128.75 318,130.15 321.4,130.15 324.9,130.15 328.3,128.85 330.9,126.15 336.2,120.85 336.2,112.35 330.9,107.05L245.1,21.25C242.6,18.75 239.1,17.25 235.6,17.25 232,17.25 228.6,18.65 226.1,21.25L140.3,107.05C135,112.35 135,120.85 140.3,126.15 145.5,131.35 154.1,131.35 159.3,126.15z" />
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                </DrawingGroup>
+            </DrawingGroup>
+        </DrawingGroup>
+    <DrawingBrush x:Key="CommitFileIcon" Drawing="{StaticResource CommitFileDrawingGroup}" />
+
+    <!--Bitbucket Child Activity Icon - Get Workspaces-->
+    <DrawingGroup x:Key="GetWorkspacesDrawingGroup">
+        <DrawingGroup.ClipGeometry>
+            <RectangleGeometry Rect="0,0,490.1,490.1" />
+        </DrawingGroup.ClipGeometry>
+        <DrawingGroup>
+            <DrawingGroup>
+                <GeometryDrawing Brush="#FF000000">
+                    <GeometryDrawing.Geometry>
+                        <PathGeometry FillRule="Nonzero" Figures="M177.3,76.95L177.3,187.95C177.3,194.75,182.8,200.25,189.6,200.25L232.8,200.25 232.8,233.65 67.8,233.65C61,233.65,55.5,239.15,55.5,245.95L55.5,289.85 12.3,289.85C5.5,289.85,0,295.35,0,302.15L0,413.15C0,419.95,5.5,425.45,12.3,425.45L123.3,425.45C130.1,425.45,135.6,419.95,135.6,413.15L135.6,302.15C135.6,295.35,130.1,289.85,123.3,289.85L80,289.85 80,258.15 232.7,258.15 232.7,289.85 189.5,289.85C182.7,289.85,177.2,295.35,177.2,302.15L177.2,413.15C177.2,419.95,182.7,425.45,189.5,425.45L300.5,425.45C307.3,425.45,312.8,419.95,312.8,413.15L312.8,302.15C312.8,295.35,307.3,289.85,300.5,289.85L257.3,289.85 257.3,258.15 410,258.15 410,289.85 366.8,289.85C360,289.85,354.5,295.35,354.5,302.15L354.5,413.15C354.5,419.95,360,425.45,366.8,425.45L477.8,425.45C484.6,425.45,490.1,419.95,490.1,413.15L490.1,302.15C490.1,295.35,484.6,289.85,477.8,289.85L434.6,289.85 434.6,245.95C434.6,239.15,429.1,233.65,422.3,233.65L257.3,233.65 257.3,200.25 300.5,200.25C307.3,200.25,312.8,194.75,312.8,187.95L312.8,76.95C312.8,70.15,307.3,64.65,300.5,64.65L189.5,64.65C182.8,64.65,177.3,70.15,177.3,76.95z M111,400.75L24.6,400.75 24.6,314.25 111,314.25 111,400.75z M288.2,400.75L201.7,400.75 201.7,314.25 288.2,314.25 288.2,400.75z M465.4,400.75L379,400.75 379,314.25 465.5,314.25 465.5,400.75 465.4,400.75z M201.8,89.15L288.3,89.15 288.3,175.65 201.8,175.65 201.8,89.15 201.8,89.15z" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingGroup>
+    </DrawingGroup>
+    <DrawingBrush x:Key="GetWorkspacesIcon" Drawing="{StaticResource GetWorkspacesDrawingGroup}" />
+</ResourceDictionary>

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bitbucket", "Bitbucket", "{3262BBB0-A8F8-413B-BBD2-5117C857587E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bitbucket", "Bitbucket\Bitbucket\Bitbucket.csproj", "{66E9AA5C-BBD8-4904-A850-47BEC4D76EFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bitbucket.Activities", "Bitbucket\Bitbucket.Activities\Bitbucket.Activities.csproj", "{ACED7D97-9FF1-4B73-9B7C-89D12E70D6CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bitbucket.Activities.Design", "Bitbucket\Bitbucket.Activities.Design\Bitbucket.Activities.Design.csproj", "{6456BFE8-017E-4F9F-8AA2-532B3CED24FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{9F269283-1952-4286-A8F8-F3A6835B3467}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities", "Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.shproj", "{4546856D-EA50-45C6-9419-EEEACB5A80AA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities.Design", "Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.shproj", "{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4546856d-ea50-45c6-9419-eeeacb5a80aa}*SharedItemsImports = 13
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{6456bfe8-017e-4f9f-8aa2-532b3ced24fe}*SharedItemsImports = 5
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{aced7d97-9ff1-4b73-9b7c-89d12e70d6ce}*SharedItemsImports = 5
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{df9c43f0-add3-4fbf-995e-84b92f9cbf25}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66E9AA5C-BBD8-4904-A850-47BEC4D76EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66E9AA5C-BBD8-4904-A850-47BEC4D76EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66E9AA5C-BBD8-4904-A850-47BEC4D76EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66E9AA5C-BBD8-4904-A850-47BEC4D76EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACED7D97-9FF1-4B73-9B7C-89D12E70D6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACED7D97-9FF1-4B73-9B7C-89D12E70D6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACED7D97-9FF1-4B73-9B7C-89D12E70D6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACED7D97-9FF1-4B73-9B7C-89D12E70D6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6456BFE8-017E-4F9F-8AA2-532B3CED24FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6456BFE8-017E-4F9F-8AA2-532B3CED24FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6456BFE8-017E-4F9F-8AA2-532B3CED24FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6456BFE8-017E-4F9F-8AA2-532B3CED24FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66E9AA5C-BBD8-4904-A850-47BEC4D76EFE} = {3262BBB0-A8F8-413B-BBD2-5117C857587E}
+		{ACED7D97-9FF1-4B73-9B7C-89D12E70D6CE} = {3262BBB0-A8F8-413B-BBD2-5117C857587E}
+		{6456BFE8-017E-4F9F-8AA2-532B3CED24FE} = {3262BBB0-A8F8-413B-BBD2-5117C857587E}
+		{4546856D-EA50-45C6-9419-EEEACB5A80AA} = {9F269283-1952-4286-A8F8-F3A6835B3467}
+		{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25} = {9F269283-1952-4286-A8F8-F3A6835B3467}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCC61140-8030-4CB9-B31D-B83AFC0A75F9}
+	EndGlobalSection
+EndGlobal

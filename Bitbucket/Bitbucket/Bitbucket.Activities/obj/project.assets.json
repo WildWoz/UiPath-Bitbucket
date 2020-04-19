@@ -1,0 +1,193 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "Microsoft.AspNet.WebApi.Client/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Pathoschild.Http.FluentClient/3.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.7"
+        },
+        "compile": {
+          "lib/net45/Pathoschild.Http.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Pathoschild.Http.Client.dll": {}
+        }
+      },
+      "Bitbucket/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "Pathoschild.Http.FluentClient": "3.3.1"
+        },
+        "compile": {
+          "bin/placeholder/Bitbucket.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bitbucket.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNet.WebApi.Client/5.2.7": {
+      "sha512": "/76fAHknzvFqbznS6Uj2sOyE9rJB3PltY+f53TH8dX9RiGhk02EhuFCWljSj5nnqKaTsmma8DFR50OGyQ4yJ1g==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/netstandard2.0/System.Net.Http.Formatting.dll",
+        "lib/netstandard2.0/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Pathoschild.Http.FluentClient/3.3.1": {
+      "sha512": "zT7Gd09oFw+oED1YxppUrJ4L4zkNf5UxNKBTX6Tq8TeCRwzNejZC+sCQ8gM7cXFD5YVvrtjtOofjQJsqqD0z7Q==",
+      "type": "package",
+      "path": "pathoschild.http.fluentclient/3.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Pathoschild.Http.Client.dll",
+        "lib/net45/Pathoschild.Http.Client.xml",
+        "lib/netstandard1.3/Pathoschild.Http.Client.dll",
+        "lib/netstandard1.3/Pathoschild.Http.Client.xml",
+        "lib/netstandard2.0/Pathoschild.Http.Client.dll",
+        "lib/netstandard2.0/Pathoschild.Http.Client.xml",
+        "pathoschild.http.fluentclient.3.3.1.nupkg.sha512",
+        "pathoschild.http.fluentclient.nuspec"
+      ]
+    },
+    "Bitbucket/1.0.0": {
+      "type": "project",
+      "path": "../Bitbucket/Bitbucket.csproj",
+      "msbuildProject": "../Bitbucket/Bitbucket.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "Bitbucket >= 1.0.0",
+      "Pathoschild.Http.FluentClient >= 3.3.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\adam.wozniak\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\Bitbucket.Activities.csproj",
+      "projectName": "Bitbucket.Activities.Implementation",
+      "projectPath": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\Bitbucket.Activities.csproj",
+      "packagesPath": "C:\\Users\\adam.wozniak\\.nuget\\packages\\",
+      "outputPath": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\obj\\",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "configFilePaths": [
+        "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\.nuget\\NuGet.Config",
+        "C:\\Users\\adam.wozniak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\ProgramData\\UiPath\\Packages": {},
+        "C:\\Workspace\\Git\\UiPath-Hackathon\\Packages": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.org/api/v2/": {},
+        "https://www.myget.org/F/uipath": {},
+        "https://www.myget.org/F/uipath/": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj": {
+              "projectPath": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
+              "privateAssets": "all"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "Pathoschild.Http.FluentClient": {
+            "target": "Package",
+            "version": "[3.3.1, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

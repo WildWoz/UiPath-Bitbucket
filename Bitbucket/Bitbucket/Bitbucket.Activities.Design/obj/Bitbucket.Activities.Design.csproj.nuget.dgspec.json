@@ -1,0 +1,176 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket.Activities.Design\\Bitbucket.Activities.Design.csproj": {}
+  },
+  "projects": {
+    "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket.Activities.Design\\Bitbucket.Activities.Design.csproj": {
+      "version": "0.1.0.419113123",
+      "restore": {
+        "projectUniqueName": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket.Activities.Design\\Bitbucket.Activities.Design.csproj",
+        "projectName": "Bitbucket.Activities",
+        "projectPath": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket.Activities.Design\\Bitbucket.Activities.Design.csproj",
+        "packagesPath": "C:\\Users\\adam.wozniak\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket.Activities.Design\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\.nuget\\NuGet.Config",
+          "C:\\Users\\adam.wozniak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\ProgramData\\UiPath\\Packages": {},
+          "C:\\Workspace\\Git\\UiPath-Hackathon\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.org/api/v2/": {},
+          "https://www.myget.org/F/uipath": {},
+          "https://www.myget.org/F/uipath/": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\Bitbucket.Activities.csproj": {
+                "projectPath": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\Bitbucket.Activities.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj": {
+                "projectPath": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Pathoschild.Http.FluentClient": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\Bitbucket.Activities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\Bitbucket.Activities.csproj",
+        "projectName": "Bitbucket.Activities.Implementation",
+        "projectPath": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\Bitbucket.Activities.csproj",
+        "packagesPath": "C:\\Users\\adam.wozniak\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\.nuget\\NuGet.Config",
+          "C:\\Users\\adam.wozniak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\ProgramData\\UiPath\\Packages": {},
+          "C:\\Workspace\\Git\\UiPath-Hackathon\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.org/api/v2/": {},
+          "https://www.myget.org/F/uipath": {},
+          "https://www.myget.org/F/uipath/": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj": {
+                "projectPath": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Pathoschild.Http.FluentClient": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
+        "projectName": "Bitbucket",
+        "projectPath": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
+        "packagesPath": "C:\\Users\\adam.wozniak\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\.nuget\\NuGet.Config",
+          "C:\\Users\\adam.wozniak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\ProgramData\\UiPath\\Packages": {},
+          "C:\\Workspace\\Git\\UiPath-Hackathon\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.org/api/v2/": {},
+          "https://www.myget.org/F/uipath": {},
+          "https://www.myget.org/F/uipath/": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Pathoschild.Http.FluentClient": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
