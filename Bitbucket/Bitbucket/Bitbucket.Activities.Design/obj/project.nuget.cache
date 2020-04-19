@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u2cn4JgWBhQhCRef1eDhEVv02HQjnAf7PoKcsG9wo3cv+/sI/2d7zLlBmGDu0cXItomEpDBHVv/gOfxqfi1u1A==",
+  "dgSpecHash": "zgGqOcoNgwB1Dwr23RhVMp6ZVXoYw16u/3xK5pM7mJQLvGYVcXLJnx9MH+IKNNN5C+8uos+t+E2/iQltmUiOqg==",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket.Activities.Design\\Bitbucket.Activities.Design.csproj",
+  "projectFilePath": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities.Design\\Bitbucket.Activities.Design.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adam.wozniak\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\adam.wozniak\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",

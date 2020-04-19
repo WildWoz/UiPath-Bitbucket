@@ -119,15 +119,15 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
+      "projectUniqueName": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
       "projectName": "Bitbucket",
-      "projectPath": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
+      "projectPath": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
       "packagesPath": "C:\\Users\\adam.wozniak\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\Bitbucket\\Bitbucket\\obj\\",
+      "outputPath": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
-        "C:\\Workspace\\Git\\UiPath-Hackathon\\Bitbucket\\.nuget\\NuGet.Config",
+        "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\.nuget\\NuGet.Config",
         "C:\\Users\\adam.wozniak\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
