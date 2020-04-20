@@ -8,11 +8,9 @@ using Pathoschild.Http.Client;
 using UiPath.Shared.Activities;
 using UiPath.Shared.Activities.Localization;
 using UiPath.Shared.Activities.Utilities;
-using Bitbucket;
 using System.Net.Http;
 using System.IO;
 using Newtonsoft.Json.Linq;
-using System.Web.UI;
 
 namespace Bitbucket.Activities
 {
@@ -132,24 +130,17 @@ namespace Bitbucket.Activities
                 multipartContent.Add(new StringContent(branchName), "branch");
             }
 
-            // Execution Logic for all types of API requests available for this endpoint
+            // Execution Logic
             var response = new JObject();
+            var exceptionHandler = new ApiExceptionHandler();
             try
             {
                 response = await AsyncRequests.PostRequest_WithBody(client, uri, cancellationToken, multipartContent);
             }
             catch (ApiException ex) // Catches any API exception and returns the message
             {
-                var responseText = await ex.Response.AsString();
-                var exceptionMessageJson = JObject.Parse(responseText).GetValue("error");
-
-                // Outputs - Exception message
-                return (ctx) =>
-                {
-                    JsonResult.Set(ctx, exceptionMessageJson);
-                };
+                await exceptionHandler.ParseExceptionAsync(ex);
             }
-
 
             // Outputs - API response as JObject
             return (ctx) =>

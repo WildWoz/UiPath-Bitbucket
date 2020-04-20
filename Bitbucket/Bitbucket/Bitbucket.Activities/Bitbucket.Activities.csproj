@@ -10,6 +10,7 @@
     <DocumentationFile>bin\$(Configuration)\Bitbucket.Activities.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\Bitbucket\ApiExceptionHandler.cs" Link="ApiExceptionHandler.cs" />
     <Compile Include="..\Bitbucket\AsyncRequests.cs" Link="AsyncRequests.cs" />
     <Compile Include="..\Bitbucket\JObjectParser.cs" Link="JObjectParser.cs" />
     <Compile Include="..\Bitbucket\Validation.cs" Link="Validation.cs" />

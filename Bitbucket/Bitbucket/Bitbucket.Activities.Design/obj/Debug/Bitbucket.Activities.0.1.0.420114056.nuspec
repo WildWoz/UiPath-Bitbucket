@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Bitbucket.Activities</id>
+    <version>0.1.0.420114056</version>
+    <authors>Adam Wozniak</authors>
+    <owners>Adam Wozniak</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <icon>packageIcon.png</icon>
+    <projectUrl>https://github.com/WildWoz/UiPath-Hackathon/tree/master/Bitbucket</projectUrl>
+    <iconUrl>https://i.ibb.co/M5z90Tw/package-Icon.png</iconUrl>
+    <description>An activity set and scope for managing repositories, workspaces and files in Bitbucket.</description>
+    <copyright>@ 2020 Company</copyright>
+    <tags>UiPath Custom Activit𝗒 Bitbucket API Hackathon</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="Pathoschild.Http.FluentClient" version="3.3.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Activities.Core.Presentation" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Activities" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Activities.Presentation" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\bin\Debug\net461\Bitbucket.Activities.dll" target="lib\net461\Bitbucket.Activities.dll" />
+    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\bin\Debug\net461\Bitbucket.dll" target="lib\net461\Bitbucket.dll" />
+    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\bin\Debug\net461\Bitbucket.Activities.xml" target="lib\net461\Bitbucket.Activities.xml" />
+    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\bin\Debug\net461\Bitbucket.xml" target="lib\net461\Bitbucket.xml" />
+    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities.Design\bin\Debug\net461\Bitbucket.Activities.Design.dll" target="lib\net461\Bitbucket.Activities.Design.dll" />
+    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities.Design\bin\Debug\net461\Bitbucket.Activities.Design.xml" target="lib\net461\Bitbucket.Activities.Design.xml" />
+    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities.Design\packageIcon.png" target="packageIcon.png" />
+  </files>
+</package>

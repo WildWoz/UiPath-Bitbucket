@@ -85,14 +85,28 @@ namespace Bitbucket.Activities
             // Create request URI
             var uri = "repositories/" + workspaceUUIDOrSlug;
 
-            // Perform request
-            var response = await AsyncRequests.GetRequest(client, uri, cancellationToken);
+            // Initialsie
+            var response = new JObject();
+            var repositorySlugList = new List<string>();
+            var repositoryUUIDList = new List<string>();
+            var exceptionHandler = new ApiExceptionHandler();
 
-            // Create slug list
-            var repositorySlugList = JObjectParser.JObjectToSlugList(response);
+            try
+            {
+                // Perform request
+                response = await AsyncRequests.GetRequest(client, uri, cancellationToken);
 
-            // Create UUID list
-            var repositoryUUIDList = JObjectParser.JObjectToUUIDList(response);
+                // Create slug list
+                repositorySlugList = JObjectParser.JObjectToSlugList(response);
+
+                // Create UUID list
+                repositoryUUIDList = JObjectParser.JObjectToUUIDList(response);
+
+            }
+            catch (ApiException ex) // Catches any API exception and returns the message
+            {
+                await exceptionHandler.ParseExceptionAsync(ex);                
+            }
 
             // Outputs
             return (ctx) =>

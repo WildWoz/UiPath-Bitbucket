@@ -107,6 +107,7 @@ namespace Bitbucket.Activities
 
             // Initialise
             var response = new JObject();
+            var exceptionHandler = new ApiExceptionHandler();
 
             // Execution Logic for all types of API requests available for this endpoint
             try
@@ -132,16 +133,7 @@ namespace Bitbucket.Activities
             }
             catch (ApiException ex) // Catches any API exception and returns the message
             {
-                var responseText = await ex.Response.AsString();
-                var exceptionMessageJson = JObject.Parse(responseText).GetValue("error");
-
-                // Outputs - Exception message
-                return (ctx) =>
-                {
-                    JsonResult.Set(ctx, exceptionMessageJson);
-                    throw new Exception(ex.Message + " - " + exceptionMessageJson);
-
-                };
+                await exceptionHandler.ParseExceptionAsync(ex);
             }
 
             // Outputs - API response as JObject
