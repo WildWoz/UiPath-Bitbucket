@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_LastSelectedProfileId>C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities.Design\Properties\PublishProfiles\UiPath Packages %28Debug%29.pubxml</_LastSelectedProfileId>
+    <_LastSelectedProfileId>C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities.Design\Properties\PublishProfiles\UiPath Packages %28Release%29.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
   <ItemGroup>
     <Page Update="Designers\GetWorkspacesDesigner.xaml">
