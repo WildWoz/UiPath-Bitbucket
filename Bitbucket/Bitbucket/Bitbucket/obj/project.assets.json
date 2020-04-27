@@ -114,21 +114,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\adam.wozniak\\.nuget\\packages\\": {}
+    "C:\\Users\\Adam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
+      "projectUniqueName": "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
       "projectName": "Bitbucket",
-      "projectPath": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
-      "packagesPath": "C:\\Users\\adam.wozniak\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\obj\\",
+      "projectPath": "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
+      "packagesPath": "C:\\Users\\Adam\\.nuget\\packages\\",
+      "outputPath": "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
-        "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\.nuget\\NuGet.Config",
-        "C:\\Users\\adam.wozniak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\.nuget\\NuGet.Config",
+        "C:\\Users\\Adam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -136,8 +136,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\ProgramData\\UiPath\\Packages": {},
-        "C:\\Workspace\\Git\\UiPath-Hackathon\\Packages": {},
+        "C:\\Users\\Adam\\Desktop\\Libraries": {},
+        "C:\\Workspace\\UiPath-Hackathon\\Packages": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.org/api/v2/": {},
         "https://www.myget.org/F/uipath": {},

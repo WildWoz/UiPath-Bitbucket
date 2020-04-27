@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "778CpIKKN8iSK6lML+guGpjt2gmkDmbqs19g5t1MJe3/oAVvDELb4MUc6UlJU5raWn3/m+xPhsZ7tnQC1d0KqA==",
+  "dgSpecHash": "0qa8dBSGtr3xIUVAnZ+U66F97XiAOlpJsfvMtxUcd3Wxb4CTSlmtbIWF9AwaqOZOJhXlxS5vo29DIP7QnTa7yA==",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\Bitbucket.Activities.csproj",
+  "projectFilePath": "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\Bitbucket.Activities.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\adam.wozniak\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
-    "C:\\Users\\adam.wozniak\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\adam.wozniak\\.nuget\\packages\\pathoschild.http.fluentclient\\3.3.1\\pathoschild.http.fluentclient.3.3.1.nupkg.sha512"
+    "C:\\Users\\Adam\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
+    "C:\\Users\\Adam\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Adam\\.nuget\\packages\\pathoschild.http.fluentclient\\3.3.1\\pathoschild.http.fluentclient.3.3.1.nupkg.sha512"
   ],
   "logs": []
 }
