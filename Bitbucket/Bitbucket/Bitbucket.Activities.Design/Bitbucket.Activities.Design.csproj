@@ -15,7 +15,7 @@
     <Copyright>@ 2020 Company</Copyright>
     <PackageTags>UiPath Custom Activit𝗒 Bitbucket API Hackathon</PackageTags>
     <PackageProjectUrl>https://github.com/WildWoz/UiPath-Bitbucket</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/WildWoz/UiPath-Bitbucket/150fd1f86f57f491739a49d50640cf486f41b649/Bitbucket/Images/PackageIcon.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/WildWoz/UiPath-Bitbucket/master/Bitbucket/Bitbucket/Bitbucket.Activities.Design/packageIcon.png</PackageIconUrl>
     <PackageIcon>packageIcon.png</PackageIcon>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
