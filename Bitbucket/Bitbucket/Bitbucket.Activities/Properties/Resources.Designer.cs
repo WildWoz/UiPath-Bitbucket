@@ -178,7 +178,7 @@ namespace Bitbucket.Activities.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The file to be comitted to the repository..
+        ///   Looks up a localized string similar to The pointer to the file you want to be commit to the repository from your local system..
         /// </summary>
         public static string CommitFile_FileToUpload_Description {
             get {
@@ -214,7 +214,8 @@ namespace Bitbucket.Activities.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A filepath representing the destination in the repository, including desired file name. Example: /myFolder/myFile.txt.
+        ///   Looks up a localized string similar to A file path that includes the file name that will be created in the repository. This can also include any number of folder and subfolders.
+        ///Example: /myFolder/myFileName.txt.
         /// </summary>
         public static string CommitFile_RepositoryLocation_Description {
             get {

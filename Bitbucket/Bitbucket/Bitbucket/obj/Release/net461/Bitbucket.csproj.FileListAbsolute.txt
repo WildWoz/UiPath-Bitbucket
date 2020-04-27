@@ -27,3 +27,4 @@ C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Release\net461\B
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Release\net461\Bitbucket.csproj.CopyComplete
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Release\net461\Bitbucket.dll
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Release\net461\Bitbucket.pdb
+C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Release\net461\Bitbucket.csprojAssemblyReference.cache

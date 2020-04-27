@@ -288,7 +288,8 @@ Slug: myWorkspace</value>
     <comment>property name</comment>
   </data>
   <data name="CommitFile_RepositoryLocation_Description" xml:space="preserve">
-    <value>A filepath representing the destination in the repository, including desired file name. Example: /myFolder/myFile.txt</value>
+    <value>A file path that includes the file name that will be created in the repository. This can also include any number of folder and subfolders.
+Example: /myFolder/myFileName.txt</value>
     <comment>property description</comment>
   </data>
   <data name="CommitFile_FileToUpload_DisplayName" xml:space="preserve">
@@ -296,7 +297,7 @@ Slug: myWorkspace</value>
     <comment>property name</comment>
   </data>
   <data name="CommitFile_FileToUpload_Description" xml:space="preserve">
-    <value>The file to be comitted to the repository.</value>
+    <value>The pointer to the file you want to be commit to the repository from your local system.</value>
     <comment>property description</comment>
   </data>
   <data name="CommitFile_CommitMessage_DisplayName" xml:space="preserve">

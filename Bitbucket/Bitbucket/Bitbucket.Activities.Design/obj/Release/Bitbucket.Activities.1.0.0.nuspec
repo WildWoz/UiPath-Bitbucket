@@ -37,12 +37,12 @@
     </frameworkAssemblies>
   </metadata>
   <files>
-    <file src="C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\bin\Release\net461\Bitbucket.Activities.dll" target="lib\net461\Bitbucket.Activities.dll" />
-    <file src="C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\bin\Release\net461\Bitbucket.dll" target="lib\net461\Bitbucket.dll" />
-    <file src="C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\bin\Release\net461\Bitbucket.Activities.xml" target="lib\net461\Bitbucket.Activities.xml" />
-    <file src="C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\bin\Release\net461\Bitbucket.xml" target="lib\net461\Bitbucket.xml" />
-    <file src="C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities.Design\bin\Release\net461\Bitbucket.Activities.Design.dll" target="lib\net461\Bitbucket.Activities.Design.dll" />
-    <file src="C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities.Design\bin\Release\net461\Bitbucket.Activities.Design.xml" target="lib\net461\Bitbucket.Activities.Design.xml" />
-    <file src="C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities.Design\packageIcon.png" target="packageIcon.png" />
+    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\bin\Release\net461\Bitbucket.Activities.dll" target="lib\net461\Bitbucket.Activities.dll" />
+    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\bin\Release\net461\Bitbucket.dll" target="lib\net461\Bitbucket.dll" />
+    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\bin\Release\net461\Bitbucket.Activities.xml" target="lib\net461\Bitbucket.Activities.xml" />
+    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\bin\Release\net461\Bitbucket.xml" target="lib\net461\Bitbucket.xml" />
+    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities.Design\bin\Release\net461\Bitbucket.Activities.Design.dll" target="lib\net461\Bitbucket.Activities.Design.dll" />
+    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities.Design\bin\Release\net461\Bitbucket.Activities.Design.xml" target="lib\net461\Bitbucket.Activities.Design.xml" />
+    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities.Design\packageIcon.png" target="packageIcon.png" />
   </files>
 </package>

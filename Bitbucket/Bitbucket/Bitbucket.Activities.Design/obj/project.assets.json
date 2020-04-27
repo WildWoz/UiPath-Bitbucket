@@ -152,30 +152,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Adam\\.nuget\\packages\\": {}
+    "C:\\Users\\adam.wozniak\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "0.1.0.427114132",
+    "version": "0.1.0.427120523",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities.Design\\Bitbucket.Activities.Design.csproj",
+      "projectUniqueName": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities.Design\\Bitbucket.Activities.Design.csproj",
       "projectName": "Bitbucket.Activities",
-      "projectPath": "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities.Design\\Bitbucket.Activities.Design.csproj",
-      "packagesPath": "C:\\Users\\Adam\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities.Design\\obj\\",
+      "projectPath": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities.Design\\Bitbucket.Activities.Design.csproj",
+      "packagesPath": "C:\\Users\\adam.wozniak\\.nuget\\packages\\",
+      "outputPath": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities.Design\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
-        "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\.nuget\\NuGet.Config",
-        "C:\\Users\\Adam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\.nuget\\NuGet.Config",
+        "C:\\Users\\adam.wozniak\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net461"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\Adam\\Desktop\\Libraries": {},
-        "C:\\Workspace\\UiPath-Hackathon\\Packages": {},
+        "C:\\Workspace\\Git\\datacombuild - RPA Datacom ACT\\Common Libraries\\Packaged": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.org/api/v2/": {},
         "https://www.myget.org/F/uipath": {},
@@ -184,12 +182,12 @@
       "frameworks": {
         "net461": {
           "projectReferences": {
-            "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\Bitbucket.Activities.csproj": {
-              "projectPath": "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\Bitbucket.Activities.csproj",
+            "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\Bitbucket.Activities.csproj": {
+              "projectPath": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\Bitbucket.Activities.csproj",
               "privateAssets": "all"
             },
-            "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj": {
-              "projectPath": "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
+            "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj": {
+              "projectPath": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
               "privateAssets": "all"
             }
           }
