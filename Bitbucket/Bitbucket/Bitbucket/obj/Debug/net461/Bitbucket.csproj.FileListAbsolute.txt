@@ -34,7 +34,6 @@ C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\bin\Debug\net461\Bit
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\bin\Debug\net461\System.Net.Http.Formatting.dll
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\bin\Debug\net461\Newtonsoft.Json.dll
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\bin\Debug\net461\Pathoschild.Http.Client.dll
-C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Debug\net461\Bitbucket.csprojAssemblyReference.cache
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Debug\net461\Bitbucket.Properties.Resources.resources
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Debug\net461\Bitbucket.csproj.GenerateResource.cache
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Debug\net461\Bitbucket.csproj.CoreCompileInputs.cache
@@ -43,3 +42,5 @@ C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Debug\net461\Bit
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Debug\net461\Bitbucket.csproj.CopyComplete
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Debug\net461\Bitbucket.dll
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Debug\net461\Bitbucket.pdb
+C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Debug\net461\Bitbucket.csproj.AssemblyReference.cache
+C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Debug\net461\Bitbucket.GeneratedMSBuildEditorConfig.editorconfig

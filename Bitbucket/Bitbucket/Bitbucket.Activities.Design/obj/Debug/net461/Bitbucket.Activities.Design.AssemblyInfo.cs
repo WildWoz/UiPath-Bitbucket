@@ -13,7 +13,7 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Adam Wozniak")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyCopyrightAttribute("@ 2020 Company")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("@ 2023 Adam Wozniak")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("An activity set and scope for managing repositories, workspaces and files in Bitb" +
     "ucket.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

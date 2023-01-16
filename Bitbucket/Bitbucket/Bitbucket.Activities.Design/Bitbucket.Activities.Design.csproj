@@ -12,14 +12,14 @@
     <Description>An activity set and scope for managing repositories, workspaces and files in Bitbucket.</Description>
     <Authors>Adam Wozniak</Authors>
     <Company>Adam Wozniak</Company>
-    <Copyright>@ 2020 Company</Copyright>
+    <Copyright>@ 2023 Adam Wozniak</Copyright>
     <PackageTags>UiPath Custom Activit𝗒 Bitbucket API Hackathon</PackageTags>
     <PackageProjectUrl>https://github.com/WildWoz/UiPath-Bitbucket</PackageProjectUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/WildWoz/UiPath-Bitbucket/master/Bitbucket/Bitbucket/Bitbucket.Activities.Design/packageIcon.png</PackageIconUrl>
     <PackageIcon>packageIcon.png</PackageIcon>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);CopyProjectReferencesToPackage</TargetsForTfmSpecificBuildOutput>
   </PropertyGroup>
   <!-- Package Versions -->
@@ -59,7 +59,8 @@
     <DocumentationFile>bin\$(Configuration)\Bitbucket.Activities.Design.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Pathoschild.Http.FluentClient" Version="3.3.1" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+	  <PackageReference Include="Pathoschild.Http.FluentClient" Version="4.2.0" />
   </ItemGroup>
 	<ItemGroup>
 		<Reference Include="System" />

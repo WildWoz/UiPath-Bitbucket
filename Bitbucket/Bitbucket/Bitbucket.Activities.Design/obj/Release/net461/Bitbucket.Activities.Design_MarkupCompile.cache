@@ -4,17 +4,17 @@
 library
 C#
 .cs
-C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities.Design\obj\Release\net461\
+C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities.Design\obj\Release\net461\
 Bitbucket.Activities.Design
 none
 false
-TRACE;RELEASE;NETFRAMEWORK;NET461
+TRACE;RELEASE;NETFRAMEWORK;NET461;
 
-111168946744
+11-600209593
 
-22-431543039
-25622237478
-..\..\Shared\Themes\Generic.xaml;Designers\BitbucketAPIScopeDesigner.xaml;Designers\CommitFileDesigner.xaml;Designers\GetRepositoriesDesigner.xaml;Designers\GetWorkspacesDesigner.xaml;Designers\ManageRepositoryDesigner.xaml;Themes\Icons.xaml;C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Shared\UiPath.Shared.Activities.Design\Controls\ComboboxControl.xaml;C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Shared\UiPath.Shared.Activities.Design\Controls\FilePathControl.xaml;C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Shared\UiPath.Shared.Activities.Design\Controls\RestrictiveBodyConnector.xaml;C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Shared\UiPath.Shared.Activities.Design\Editors\EditorTemplates.xaml;
+22-760831354
+25-1965485026
+..\..\Shared\Themes\Generic.xaml;Designers\BitbucketAPIScopeDesigner.xaml;Designers\CommitFileDesigner.xaml;Designers\GetRepositoriesDesigner.xaml;Designers\GetWorkspacesDesigner.xaml;Designers\ManageRepositoryDesigner.xaml;Themes\Icons.xaml;C:\Workspace\UiPath-Bitbucket\Bitbucket\Shared\UiPath.Shared.Activities.Design\Controls\ComboboxControl.xaml;C:\Workspace\UiPath-Bitbucket\Bitbucket\Shared\UiPath.Shared.Activities.Design\Controls\FilePathControl.xaml;C:\Workspace\UiPath-Bitbucket\Bitbucket\Shared\UiPath.Shared.Activities.Design\Controls\RestrictiveBodyConnector.xaml;C:\Workspace\UiPath-Bitbucket\Bitbucket\Shared\UiPath.Shared.Activities.Design\Editors\EditorTemplates.xaml;
 
 False
 

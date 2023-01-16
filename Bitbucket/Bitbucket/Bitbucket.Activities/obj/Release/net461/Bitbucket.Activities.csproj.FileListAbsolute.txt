@@ -25,7 +25,6 @@ C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\bin\Relea
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\bin\Release\net461\Bitbucket.dll
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\bin\Release\net461\Bitbucket.pdb
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\bin\Release\net461\Bitbucket.xml
-C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\obj\Release\net461\Bitbucket.Activities.csprojAssemblyReference.cache
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\obj\Release\net461\Bitbucket.Activities.Properties.Resources.resources
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\obj\Release\net461\Bitbucket.Activities.csproj.GenerateResource.cache
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\obj\Release\net461\Bitbucket.Activities.csproj.CoreCompileInputs.cache
@@ -34,3 +33,5 @@ C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\obj\Relea
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\obj\Release\net461\Bitbucket.Activities.csproj.CopyComplete
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\obj\Release\net461\Bitbucket.Activities.dll
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\obj\Release\net461\Bitbucket.Activities.pdb
+C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\obj\Release\net461\Bitbucket.Activities.csproj.AssemblyReference.cache
+C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\obj\Release\net461\Bitbucket.Activities.GeneratedMSBuildEditorConfig.editorconfig

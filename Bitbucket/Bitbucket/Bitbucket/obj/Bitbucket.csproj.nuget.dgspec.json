@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj": {}
+    "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj": {}
   },
   "projects": {
-    "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj": {
+    "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
+        "projectUniqueName": "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
         "projectName": "Bitbucket",
-        "projectPath": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
+        "projectPath": "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
         "packagesPath": "C:\\Users\\adam.wozniak\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\obj\\",
+        "outputPath": "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\.nuget\\NuGet.Config",
+          "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\.nuget\\NuGet.Config",
           "C:\\Users\\adam.wozniak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -23,14 +23,20 @@
           "net461"
         ],
         "sources": {
-          "C:\\Workspace\\Git\\datacombuild - RPA Datacom ACT\\Common Libraries\\Packaged": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\adam.wozniak\\OneDrive - UiPath\\Desktop": {},
+          "C:\\Users\\adam.wozniak\\Source\\Repos\\WildWoz\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities.Design\\bin\\Debug\\": {},
+          "C:\\Users\\adam.wozniak\\source\\repos\\Bitbucket\\Bitbucket.Activities.Design\\bin\\Release\\net6.0-windows\\publish": {},
           "https://api.nuget.org/v3/index.json": {},
+          "https://gallery.uipath.com/api/v2": {},
+          "https://gallery.uipath.com/api/v3/index.json": {},
           "https://nuget.org/api/v2/": {},
-          "https://www.myget.org/F/uipath": {},
+          "https://pkgs.dev.azure.com/uipath/Public.Feeds/_packaging/UiPath-Official/nuget/v3/index.json": {},
           "https://www.myget.org/F/uipath/": {}
         },
         "frameworks": {
           "net461": {
+            "targetAlias": "net461",
             "projectReferences": {}
           }
         },
@@ -42,17 +48,18 @@
       },
       "frameworks": {
         "net461": {
+          "targetAlias": "net461",
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.3, )"
+              "version": "[13.0.2, )"
             },
             "Pathoschild.Http.FluentClient": {
               "target": "Package",
-              "version": "[3.3.1, )"
+              "version": "[4.2.0, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

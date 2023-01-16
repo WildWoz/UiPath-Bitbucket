@@ -4,7 +4,6 @@
     <id>Bitbucket.Activities</id>
     <version>1.0.0</version>
     <authors>Adam Wozniak</authors>
-    <owners>Adam Wozniak</owners>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="expression">Apache-2.0</license>
     <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
@@ -12,11 +11,12 @@
     <projectUrl>https://github.com/WildWoz/UiPath-Bitbucket</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/WildWoz/UiPath-Bitbucket/master/Bitbucket/Bitbucket/Bitbucket.Activities.Design/packageIcon.png</iconUrl>
     <description>An activity set and scope for managing repositories, workspaces and files in Bitbucket.</description>
-    <copyright>@ 2020 Company</copyright>
+    <copyright>@ 2023 Adam Wozniak</copyright>
     <tags>UiPath Custom Activit𝗒 Bitbucket API Hackathon</tags>
     <dependencies>
       <group targetFramework=".NETFramework4.6.1">
-        <dependency id="Pathoschild.Http.FluentClient" version="3.3.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.2" exclude="Build,Analyzers" />
+        <dependency id="Pathoschild.Http.FluentClient" version="4.2.0" exclude="Build,Analyzers" />
       </group>
     </dependencies>
     <frameworkAssemblies>
@@ -37,12 +37,12 @@
     </frameworkAssemblies>
   </metadata>
   <files>
-    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\bin\Release\net461\Bitbucket.Activities.dll" target="lib\net461\Bitbucket.Activities.dll" />
-    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\bin\Release\net461\Bitbucket.dll" target="lib\net461\Bitbucket.dll" />
-    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\bin\Release\net461\Bitbucket.Activities.xml" target="lib\net461\Bitbucket.Activities.xml" />
-    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\bin\Release\net461\Bitbucket.xml" target="lib\net461\Bitbucket.xml" />
-    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities.Design\bin\Release\net461\Bitbucket.Activities.Design.dll" target="lib\net461\Bitbucket.Activities.Design.dll" />
-    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities.Design\bin\Release\net461\Bitbucket.Activities.Design.xml" target="lib\net461\Bitbucket.Activities.Design.xml" />
-    <file src="C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities.Design\packageIcon.png" target="packageIcon.png" />
+    <file src="C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\bin\Release\net461\Bitbucket.Activities.dll" target="lib\net461\Bitbucket.Activities.dll" />
+    <file src="C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\bin\Release\net461\Bitbucket.dll" target="lib\net461\Bitbucket.dll" />
+    <file src="C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities\bin\Release\net461\Bitbucket.Activities.xml" target="lib\net461\Bitbucket.Activities.xml" />
+    <file src="C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\bin\Release\net461\Bitbucket.xml" target="lib\net461\Bitbucket.xml" />
+    <file src="C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities.Design\bin\Release\net461\Bitbucket.Activities.Design.dll" target="lib\net461\Bitbucket.Activities.Design.dll" />
+    <file src="C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities.Design\bin\Release\net461\Bitbucket.Activities.Design.xml" target="lib\net461\Bitbucket.Activities.Design.xml" />
+    <file src="C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket.Activities.Design\packageIcon.png" target="packageIcon.png" />
   </files>
 </package>

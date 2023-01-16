@@ -18,7 +18,6 @@ C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\bin\Release\net461\B
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\bin\Release\net461\System.Net.Http.Formatting.dll
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\bin\Release\net461\Newtonsoft.Json.dll
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\bin\Release\net461\Pathoschild.Http.Client.dll
-C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Release\net461\Bitbucket.csprojAssemblyReference.cache
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Release\net461\Bitbucket.Properties.Resources.resources
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Release\net461\Bitbucket.csproj.GenerateResource.cache
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Release\net461\Bitbucket.csproj.CoreCompileInputs.cache
@@ -28,3 +27,5 @@ C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Release\net461\B
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Release\net461\Bitbucket.dll
 C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Release\net461\Bitbucket.pdb
 C:\Workspace\Git\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Release\net461\Bitbucket.csprojAssemblyReference.cache
+C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Release\net461\Bitbucket.csproj.AssemblyReference.cache
+C:\Workspace\UiPath-Bitbucket\Bitbucket\Bitbucket\Bitbucket\obj\Release\net461\Bitbucket.GeneratedMSBuildEditorConfig.editorconfig

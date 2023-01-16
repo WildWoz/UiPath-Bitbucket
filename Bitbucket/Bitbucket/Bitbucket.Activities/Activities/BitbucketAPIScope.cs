@@ -57,7 +57,7 @@ namespace Bitbucket.Activities
 
             Body = new ActivityAction<IObjectContainer>
             {
-                Argument = new DelegateInArgument<IObjectContainer> (ParentContainerPropertyTag),
+                Argument = new DelegateInArgument<IObjectContainer>(ParentContainerPropertyTag),
                 Handler = new Sequence { DisplayName = Resources.Do }
             };
         }
@@ -80,7 +80,7 @@ namespace Bitbucket.Activities
             base.CacheMetadata(metadata);
         }
 
-        protected override async Task<Action<NativeActivityContext>> ExecuteAsync(NativeActivityContext  context, CancellationToken cancellationToken)
+        protected override async Task<Action<NativeActivityContext>> ExecuteAsync(NativeActivityContext context, CancellationToken cancellationToken)
         {
             // Inputs
             var username = AccountUsername.Get(context);
@@ -96,7 +96,7 @@ namespace Bitbucket.Activities
             defaultHttpClient.DefaultRequestHeaders
                 .Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", base64EncodedCredentials);
 
-            var client = new FluentClient("https://api.bitbucket.org/2.0/", defaultHttpClient);
+            var client = new FluentClient(new Uri("https://api.bitbucket.org/2.0/"), defaultHttpClient);
 
             // Send to child activities
             _objectContainer.Add(client);
@@ -136,7 +136,7 @@ namespace Bitbucket.Activities
 
 
         #region Helpers
-        
+
         private void Cleanup()
         {
             var disposableObjects = _objectContainer.Where(o => o is IDisposable);

@@ -11,39 +11,51 @@
           "System.Net.Http"
         ],
         "compile": {
-          "lib/net45/System.Net.Http.Formatting.dll": {}
+          "lib/net45/System.Net.Http.Formatting.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/System.Net.Http.Formatting.dll": {}
+          "lib/net45/System.Net.Http.Formatting.dll": {
+            "related": ".xml"
+          }
         }
       },
-      "Newtonsoft.Json/12.0.3": {
+      "Newtonsoft.Json/13.0.2": {
         "type": "package",
         "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
-      "Pathoschild.Http.FluentClient/3.3.1": {
+      "Pathoschild.Http.FluentClient/4.2.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.WebApi.Client": "5.2.7"
         },
         "compile": {
-          "lib/net45/Pathoschild.Http.Client.dll": {}
+          "lib/net452/Pathoschild.Http.Client.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/Pathoschild.Http.Client.dll": {}
+          "lib/net452/Pathoschild.Http.Client.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Bitbucket/1.0.0": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.6.1",
         "dependencies": {
-          "Newtonsoft.Json": "12.0.3",
-          "Pathoschild.Http.FluentClient": "3.3.1"
+          "Newtonsoft.Json": "13.0.2",
+          "Pathoschild.Http.FluentClient": "4.2.0"
         },
         "compile": {
           "bin/placeholder/Bitbucket.dll": {}
@@ -72,14 +84,15 @@
         "microsoft.aspnet.webapi.client.nuspec"
       ]
     },
-    "Newtonsoft.Json/12.0.3": {
-      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+    "Newtonsoft.Json/13.0.2": {
+      "sha512": "R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
       "type": "package",
-      "path": "newtonsoft.json/12.0.3",
+      "path": "newtonsoft.json/13.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
+        "README.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -88,35 +101,36 @@
         "lib/net40/Newtonsoft.Json.xml",
         "lib/net45/Newtonsoft.Json.dll",
         "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
         "lib/netstandard1.0/Newtonsoft.Json.dll",
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.13.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
     },
-    "Pathoschild.Http.FluentClient/3.3.1": {
-      "sha512": "zT7Gd09oFw+oED1YxppUrJ4L4zkNf5UxNKBTX6Tq8TeCRwzNejZC+sCQ8gM7cXFD5YVvrtjtOofjQJsqqD0z7Q==",
+    "Pathoschild.Http.FluentClient/4.2.0": {
+      "sha512": "1w+dMGVJp6y9qah7OuOIKZHfk/HlUcme7GFK5a73qHGhCO/w3cWtACDss6EGMLvaOEiDZ6dU4CtOnSGCglvRRg==",
       "type": "package",
-      "path": "pathoschild.http.fluentclient/3.3.1",
+      "path": "pathoschild.http.fluentclient/4.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net45/Pathoschild.Http.Client.dll",
-        "lib/net45/Pathoschild.Http.Client.xml",
+        "images/package-icon.png",
+        "lib/net452/Pathoschild.Http.Client.dll",
+        "lib/net452/Pathoschild.Http.Client.xml",
+        "lib/net5.0/Pathoschild.Http.Client.dll",
+        "lib/net5.0/Pathoschild.Http.Client.xml",
         "lib/netstandard1.3/Pathoschild.Http.Client.dll",
         "lib/netstandard1.3/Pathoschild.Http.Client.xml",
         "lib/netstandard2.0/Pathoschild.Http.Client.dll",
         "lib/netstandard2.0/Pathoschild.Http.Client.xml",
-        "pathoschild.http.fluentclient.3.3.1.nupkg.sha512",
+        "pathoschild.http.fluentclient.4.2.0.nupkg.sha512",
         "pathoschild.http.fluentclient.nuspec"
       ]
     },
@@ -129,7 +143,8 @@
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.6.1": [
       "Bitbucket >= 1.0.0",
-      "Pathoschild.Http.FluentClient >= 3.3.1"
+      "Newtonsoft.Json >= 13.0.2",
+      "Pathoschild.Http.FluentClient >= 4.2.0"
     ]
   },
   "packageFolders": {
@@ -138,15 +153,15 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\Bitbucket.Activities.csproj",
+      "projectUniqueName": "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\Bitbucket.Activities.csproj",
       "projectName": "Bitbucket.Activities.Implementation",
-      "projectPath": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\Bitbucket.Activities.csproj",
+      "projectPath": "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\Bitbucket.Activities.csproj",
       "packagesPath": "C:\\Users\\adam.wozniak\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\obj\\",
+      "outputPath": "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
-        "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\.nuget\\NuGet.Config",
+        "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\.nuget\\NuGet.Config",
         "C:\\Users\\adam.wozniak\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -154,17 +169,23 @@
         "net461"
       ],
       "sources": {
-        "C:\\Workspace\\Git\\datacombuild - RPA Datacom ACT\\Common Libraries\\Packaged": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\adam.wozniak\\OneDrive - UiPath\\Desktop": {},
+        "C:\\Users\\adam.wozniak\\Source\\Repos\\WildWoz\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.Activities.Design\\bin\\Debug\\": {},
+        "C:\\Users\\adam.wozniak\\source\\repos\\Bitbucket\\Bitbucket.Activities.Design\\bin\\Release\\net6.0-windows\\publish": {},
         "https://api.nuget.org/v3/index.json": {},
+        "https://gallery.uipath.com/api/v2": {},
+        "https://gallery.uipath.com/api/v3/index.json": {},
         "https://nuget.org/api/v2/": {},
-        "https://www.myget.org/F/uipath": {},
+        "https://pkgs.dev.azure.com/uipath/Public.Feeds/_packaging/UiPath-Official/nuget/v3/index.json": {},
         "https://www.myget.org/F/uipath/": {}
       },
       "frameworks": {
         "net461": {
+          "targetAlias": "net461",
           "projectReferences": {
-            "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj": {
-              "projectPath": "C:\\Workspace\\Git\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
+            "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj": {
+              "projectPath": "C:\\Workspace\\UiPath-Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket\\Bitbucket.csproj",
               "privateAssets": "all"
             }
           }
@@ -178,13 +199,18 @@
     },
     "frameworks": {
       "net461": {
+        "targetAlias": "net461",
         "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.2, )"
+          },
           "Pathoschild.Http.FluentClient": {
             "target": "Package",
-            "version": "[3.3.1, )"
+            "version": "[4.2.0, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
